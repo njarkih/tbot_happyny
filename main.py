@@ -31,7 +31,7 @@ async def start(message: types.Message):
 async def congratulation(message: types.Message):
 
     day = datetime.now().day
-    month_num = datetime.now().monthe
+    month_num = datetime.now().month
 
     check_date = str(month_num) + '-' + ('0' + str(day))[-2:]
 
